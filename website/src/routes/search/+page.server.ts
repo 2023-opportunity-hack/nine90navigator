@@ -1,12 +1,13 @@
-import type { Actions } from './$types';
 import { Client } from '@elastic/elasticsearch';
+import { ELASTIC_CLOUD_API_KEY, ELASTIC_CLOUD_ID } from '$env/static/private';
+import type { Actions } from './$types';
 
 const client = new Client({
 	cloud: {
-		id: process.env.ELASTIC_CLOUD_ID
+		id: ELASTIC_CLOUD_ID
 	},
 	auth: {
-		apiKey: process.env.ELASTIC_CLOUD_API_KEY
+		apiKey: ELASTIC_CLOUD_API_KEY
 	}
 });
 
