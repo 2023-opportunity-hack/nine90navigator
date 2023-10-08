@@ -1,13 +1,12 @@
 import { Client } from '@elastic/elasticsearch';
 
 const client = new Client({
-    cloud: {
-        id: //empty
-    },
-    auth: {
-        // TODO remove this
-        apiKey: //empty
-    }
+	cloud: {
+		id: process.env.ELASTIC_CLOUD_ID
+	},
+	auth: {
+		apiKey: process.env.ELASTIC_CLOUD_API_KEY
+	}
 })
 
 export default async function send(objects) {
