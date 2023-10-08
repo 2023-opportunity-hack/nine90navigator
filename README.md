@@ -41,11 +41,11 @@ After finally finishing this project, we are extremely proud of all of our techn
 Working on Nine-90 for Legends Animation taught us that while creating real world applications can be stressful and challenging, working on it for a worthwhile cause can be extremely fulfilling. It was definitely intimidating when we were first introduced to the problems we needed to solve, but by working together we were able to achieve our goal!
 
 
-# *** HOW TO USE *** 
+# Installation
 - This is the tricky part!
-  1. Get an instance of an IDE with a terminal function ( Visual Studio Code works but you can also run this project on Replit ) 
-  2. In the terminal, check if you have the dependenices and modules installed by typing ```npm install```, ```npm install svelte```, and  ```npm install leaflet```
-  3. In the terminal, type ```npm run dev``` and the terminal should pop up with a link to a local host
+  1. Get an instance of an IDE with a terminal ( Visual Studio Code works but you can also run this project on Replit ) 
+  2. In the terminal, install dependencies and modules with ```npm install```
+  3. In the terminal, type ```npm run dev``` and the terminal should pop up with a link to a local server
   4. You are free to use the website!
 
 ## Team Members
