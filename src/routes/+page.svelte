@@ -31,6 +31,6 @@
 
 <ul class="m-2">
 	{#each $searchResults as result}
-		<Nonprofit dat={result} />
+		<Nonprofit name={result.name} ein={result.ein} city={result.city} state={result.state} />
 	{/each}
 </ul>
