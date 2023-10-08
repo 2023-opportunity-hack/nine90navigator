@@ -7,6 +7,7 @@ BARRETT BADDIES
 ## Problem Statement
 [990 Data Finder: A Tool to Analyze Nonprofits and Foundations’ Tax Returns](https://ohack.dev/project/xsnjfdchdZNjGThFjJPh)
 ## Team members
+- Sriya Pratipati
 - Ben Juntilla
 - Chelsea Gomez
 - Nathan Xie
