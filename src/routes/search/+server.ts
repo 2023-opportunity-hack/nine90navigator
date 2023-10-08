@@ -12,12 +12,13 @@ const client = new Client({
 });
 
 export const GET: RequestHandler = async function ({ url }) {
-	const ein = url.searchParams.get('ein').toString();
+	const searchTerms = {};
+	url.searchParams.forEach((value, key) => (searchTerms[key] = `.*${value}.*`));
 
 	const documents = await client.helpers.search({
 		index: 'nonprofits',
 		query: {
-			regexp: { ein: `.*${ein}.*` }
+			regexp: searchTerms
 		}
 	});
 
