@@ -9,7 +9,7 @@
 	<h1 class="h1 m-2">
 		<span
 			class="bg-gradient-to-br from-red-500 to-yellow-500 bg-clip-text text-transparent box-decoration-clone"
-			>Nine-90 Search</span
+			>Nine-90 Navigator</span
 		>
 	</h1>
 </div>
