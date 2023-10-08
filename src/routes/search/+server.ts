@@ -12,13 +12,24 @@ const client = new Client({
 });
 
 export const GET: RequestHandler = async function ({ url }) {
-	const searchTerms = {};
-	url.searchParams.forEach((value, key) => (searchTerms[key] = `.*${value}.*`));
-
+	const dynamicQuery = [];
+	const ein = url.searchParams.get('ein');
+	if (ein.length !== 0) {
+		dynamicQuery.push({ wildcard: { ein: `*${ein}*` } });
+	}
+	const city = url.searchParams.get('city');
+	if (city.length !== 0) {
+		dynamicQuery.push({ wildcard: { city: `*${city}*` } });
+	}
+	const state = url.searchParams.get('state');
+	if (state.length !== 0) {
+		dynamicQuery.push({ wildcard: { state: `*${state}*` } });
+	}
 	const documents = await client.helpers.search({
-		index: 'nonprofits',
 		query: {
-			regexp: searchTerms
+			bool: {
+				must: dynamicQuery
+			}
 		}
 	});
 
