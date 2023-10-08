@@ -34,6 +34,8 @@
 1. While Nine-90’s main function is to search through and interpret the IRS data, it was quite difficult to interpret the XML data, which also had a corrupted zip file. Our plan for the API was discarded after a few hours of work due to a lack of necessary data. The issue with the data was that some of it was incomplete, which was data.
 2. On the front-end side of our project, working with and integrating Elasticsearch into Svelte was a big challenge, as our team had little to no prior experience working with the engine. 
 3. In addition to the integration of Elasticsearch and Svelte, our team had a lot of trouble getting the search bar (a primary feature) to function properly.
+4. We encountered many problems with the actual data from the IRS files as some were corrupted and some were filed incorrectly, causing our program to crash. 
+
 
 # Acomplishments 
 After finally finishing this project, we are extremely proud of all of our technical accomplishments and everything we have learned through this experience! Over the course of more than 30 hours, we used multiple APIs, integrated Elasticsearch and Svelte, decoded XML from PDFs, and processed the data.
