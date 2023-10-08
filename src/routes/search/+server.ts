@@ -12,23 +12,32 @@ const client = new Client({
 });
 
 export const GET: RequestHandler = async function ({ url }) {
-	const dynamicQuery = [];
-	const ein = url.searchParams.get('ein');
-	if (ein.length !== 0) {
-		dynamicQuery.push({ wildcard: { ein: `*${ein}*` } });
+	const orQueries = [];
+
+	const partialMatchTerms = ['name', 'ein', 'city', 'state'];
+	for (const term of partialMatchTerms) {
+		const termValue = url.searchParams.get(term);
+		if (termValue?.length !== 0) {
+			orQueries.push({ wildcard: { [term]: `*${termValue}*` } });
+		}
 	}
-	const city = url.searchParams.get('city');
-	if (city.length !== 0) {
-		dynamicQuery.push({ wildcard: { city: `*${city}*` } });
+
+	const rangeMatchTerms = [
+		{ name: 'grossRevenue', min: 'grossRevenueMin', max: 'grossRevenueMax' },
+		{ name: 'netRevenue', min: 'netRevenueMin', max: 'netRevenueMax' }
+	];
+	for (const term of rangeMatchTerms) {
+		const termValueMin = url.searchParams.get(term.min);
+		const termValueMax = url.searchParams.get(term.max);
+		if (termValueMin?.length !== 0 && termValueMax?.length !== 0) {
+			orQueries.push({ range: { [term.name]: { gte: termValueMin, lte: termValueMax } } });
+		}
 	}
-	const state = url.searchParams.get('state');
-	if (state.length !== 0) {
-		dynamicQuery.push({ wildcard: { state: `*${state}*` } });
-	}
+
 	const documents = await client.helpers.search({
 		query: {
 			bool: {
-				must: dynamicQuery
+				must: orQueries
 			}
 		}
 	});

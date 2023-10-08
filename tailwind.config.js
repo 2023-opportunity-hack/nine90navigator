@@ -11,10 +11,7 @@ const config = {
 	theme: {
 		extend: {}
 	},
-	plugins: [
-		forms,
-		skeleton({themes: {preset: ["sahara"]}})
-	]
+	plugins: [forms, skeleton({ themes: { preset: ['sahara'] } })]
 };
 
 export default config;

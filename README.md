@@ -1,6 +1,6 @@
 <img src = "https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/102429804/9b5d2c16-6fa0-461a-9bfd-20c7577e2dbb" width = "200" height="200">
 
-# Nine-90 Scraper 
+# Nine-90 Navigator 
 
 ***Nine-90*** allows the user to search through data from 990 tax returns of nonprofits around the nation with different search options including geographic location, grant application process, the grant application recipient, submission deadlines, restrictions and limitations, and whether or not the foundation accepts unsolicited requests for funds. Apart from this, ***Nine-90*** can also search through data on nonprofit salaries with search options of geographic locations, annual gross revenue, annual net revenue, and employee title, such as those including keywords like director and chief, ***making it easier for Legends Animated to succeed in sprouting talents.***
 # Features
@@ -27,7 +27,8 @@
  Our program was built through three stages: scraping the information from the 990 tax return forms, applying Elasticsearch using Svelte as our framework, and designing the front-end code for the user interface. The program also uses Leaflet to implement the geographical location requirements of the problem.
 
 # Structure
-![READ ME - Barrett Baddies (1)](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/145801438/e675bc83-7907-490d-ac71-df86ae0772e3)
+![READ ME - Barrett Baddies](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/145801438/f4cb8b8f-1a6d-4802-aff9-6963009a182b)
+
 
 # Challenges
 1. While Nine-90’s main function is to search through and interpret the IRS data, it was quite difficult to interpret the XML data, which also had a corrupted zip file. Our plan for the API was discarded after a few hours of work due to a lack of necessary data.
@@ -41,11 +42,11 @@ After finally finishing this project, we are extremely proud of all of our techn
 Working on Nine-90 for Legends Animation taught us that while creating real world applications can be stressful and challenging, working on it for a worthwhile cause can be extremely fulfilling. It was definitely intimidating when we were first introduced to the problems we needed to solve, but by working together we were able to achieve our goal!
 
 
-# *** HOW TO USE *** 
+# Installation
 - This is the tricky part!
-  1. Get an instance of an IDE with a terminal function ( Visual Studio Code works but you can also run this project on Replit ) 
-  2. In the terminal, check if you have the dependenices and modules installed by typing ```npm install```, ```npm install svelte```, and  ```npm install leaflet```
-  3. In the terminal, type ```npm run dev``` and the terminal should pop up with a link to a local host
+  1. Get an instance of an IDE with a terminal ( Visual Studio Code works but you can also run this project on Replit ) 
+  2. In the terminal, install dependencies and modules with ```npm install```
+  3. In the terminal, type ```npm run dev``` and the terminal should pop up with a link to a local server
   4. You are free to use the website!
 
 ## Team Members
