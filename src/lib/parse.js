@@ -9,7 +9,7 @@ const parser = new XMLParser();
 const xmlFiles = fs.readdirSync(parseDir)
                     .filter(file => file.endsWith('.xml'));
 
-let filteredJsonTaxForm = [];
+let arrayJsonTaxForm = [];
 
 xmlFiles.forEach(file => {
     let data = fs.readFileSync(`${parseDir}/${file}`, 'utf-8');
@@ -54,10 +54,11 @@ xmlFiles.forEach(file => {
                 title.includes("coordinator") ||
                 title.includes("assistant")
     });
-    filteredJsonTaxForm.push(filteredJsonTaxForm);
+    if(filteredJsonTaxForm.returnType === '990' ||
+    filteredJsonTaxForm.returnType === '990EZ' || 
+    filteredJsonTaxForm.returnType === '990PF'){
+        arrayJsonTaxForm.push(filteredJsonTaxForm);
+    }
 })
-if(filteredJsonTaxForm.returnType === '990' ||
-filteredJsonTaxForm.returnType === '990EZ' || 
-filteredJsonTaxForm.returnType === '990PF'){
-    send(filteredJsonTaxForm);
-}
+send(arrayJsonTaxForm);
+
