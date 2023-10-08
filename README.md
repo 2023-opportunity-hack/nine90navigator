@@ -1,4 +1,4 @@
-![9-90TWO](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/102429804/9b5d2c16-6fa0-461a-9bfd-20c7577e2dbb)
+![9-90TWO](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/102429804/9b5d2c16-6fa0-461a-9bfd-20c7577e2dbb = 250x250)
 
 # Nine-90 Scraper 
 
