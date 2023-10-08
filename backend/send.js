@@ -1,24 +1,13 @@
 import { Client } from '@elastic/elasticsearch';
 
 const client = new Client({
-<<<<<<< HEAD
 	cloud: {
 		id: process.env.ELASTIC_CLOUD_ID
 	},
 	auth: {
 		apiKey: process.env.ELASTIC_CLOUD_API_KEY
 	}
-=======
-    cloud: { 
-        id: 
-    },
-    auth: {
-        // TODO remove this
-        apiKey: 
-    }
->>>>>>> 2812298 (changed ein to a  string)
 })
-
 export default async function send(objects) {
     await client.indices.create({
             index: "nonprofits",
