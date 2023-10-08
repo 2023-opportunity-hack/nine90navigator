@@ -15,7 +15,7 @@
 </div>
 
 <form class="py-2 m-2" method="POST">
-	<div class="flex flex-row">
+	<div class="flex flex-row flex-wrap">
 		<label class="label">
 			<span>Nonprofit name</span>
 			<input class="input" name="name" placeholder="Kittens & Dogs Ltd." />
