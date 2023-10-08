@@ -42,8 +42,11 @@ Working on Nine-90 for Legends Animation taught us that while creating real worl
 
 # *** HOW TO USE *** 
 - This is the tricky part!
-  1. Get an instance of an ide with a terminal function ( Vs code works but you can also run this project on replit )
-  2. 
+  1. Get an instance of an ide with a terminal function ( Vs code works but you can also run this project on replit ) 
+  2. In the terminal, check if you have the dependenices and modules installed by typing ```npm install```, ```npm install svelte```, and  ```npm install leaflet```
+  3. In the terminal, type ```npm run dev``` and the terminal should pop up with a link to a local host
+  4. You are free too use the website!
+
 
 
 
