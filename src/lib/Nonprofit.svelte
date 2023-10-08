@@ -3,7 +3,7 @@
 </script>
 
 <div class="card">
-	<header class="card-header">{dat.ein}</header>
+	<header class="card-header">{dat.name} ({dat.ein})</header>
 	<section class="p-4">{dat.city}, {dat.state}: Blah blah</section>
-	<footer class="card-footer">{dat.ein}</footer>
+	<footer class="card-footer">Footer</footer>
 </div>
