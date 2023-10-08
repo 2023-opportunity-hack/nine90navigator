@@ -2,7 +2,8 @@
 	export let dat: Object;
 </script>
 
-<div>
-	<h2 class="h2">{dat.ein}</h2>
-	<p>{dat.city}, {dat.state}</p>
+<div class="card">
+	<header class="card-header">{dat.ein}</header>
+	<section class="p-4">{dat.city}, {dat.state}: Blah blah</section>
+	<footer class="card-footer">{dat.ein}</footer>
 </div>

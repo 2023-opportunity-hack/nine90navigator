@@ -5,7 +5,7 @@
 <slot />
 
 <style lang="postcss">
-	:global(html) {
-		background-color: rgba(var(--color-surface-50));
+	body {
+		@apply bg-surface-50-900-token;
 	}
 </style>
