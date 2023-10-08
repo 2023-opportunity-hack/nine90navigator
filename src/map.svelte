@@ -1,4 +1,4 @@
-<!-- Map.svelte -->
+<!-- Map.svelte, This was an expation that we were testing but utimatley decided to scrap in the end-->
 
 <script lang="ts">
     import L from 'leaflet';

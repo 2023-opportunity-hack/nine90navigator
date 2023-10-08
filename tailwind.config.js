@@ -1,3 +1,4 @@
+// This is the file that makes much of the website styling continous and stylish!
 import { join } from 'path';
 import { skeleton } from '@skeletonlabs/tw-plugin';
 import forms from '@tailwindcss/forms';

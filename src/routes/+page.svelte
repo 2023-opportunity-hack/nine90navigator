@@ -3,7 +3,7 @@
 	import { searchResults } from '../stores';
 	import image from '../static/icon.png';
 </script>
-
+<!-- This is the image logo -->
 <div class="flex flex-row">
 	<img class="object-contain h-16" src={image} alt="" />
 	<h1 class="h1 m-2">
@@ -13,6 +13,7 @@
 		>
 	</h1>
 </div>
+<!-- This is a the placeholder labels for the search bars-->
 
 <form class="py-2 m-2" method="POST">
 	<div class="flex flex-row">
