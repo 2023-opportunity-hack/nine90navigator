@@ -17,6 +17,7 @@
 
 |  Software  | Purpose | 
 | ------------- | ------------- |
+|  [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser)| Convert the xml to .json object |
 |  Svelte | Front end and back end  |
 | Elasticsearch | Database container |
 | Leaflet | Map and display |
