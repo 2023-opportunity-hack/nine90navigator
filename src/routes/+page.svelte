@@ -3,6 +3,8 @@
 	import { searchResults } from '../stores';
 </script>
 
+<h1 class="h1">Nine-90 Search</h1>
+
 <form method="POST">
 	<label>
 		Employer Identification Number (EIN)
@@ -16,7 +18,7 @@
 		State
 		<input name="state" />
 	</label>
-	<button>Search</button>
+	<button class="btn variant-filled-primary">Search</button>
 </form>
 
 <ul>

@@ -3,6 +3,6 @@
 </script>
 
 <div>
-	<h1>{dat.ein}</h1>
-	<h2>{dat.city}, {dat.state}</h2>
+	<h2 class="h2">{dat.ein}</h2>
+	<p>{dat.city}, {dat.state}</p>
 </div>
