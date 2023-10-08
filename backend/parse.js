@@ -1,18 +1,22 @@
-const fs = require('fs');
-const { XMLParser, XMLBuilder, XMLValidator} = require("fast-xml-parser");
+import fs from 'fs';
+import send from './send.js';
+import { XMLParser, XMLBuilder, XMLValidator} from 'fast-xml-parser';
 
-const importDir = './import';
+const parseDir = './parse';
 
 const parser = new XMLParser();
 
-const xmlFiles = fs.readdirSync(importDir)
+const xmlFiles = fs.readdirSync(parseDir)
                      .filter(file => file.endsWith('.xml'));
 
+let betterJsonObjects = [];
+
 xmlFiles.forEach(file => {
-    let data = fs.readFileSync(`${importDir}/${file}`, 'utf-8');
+    let data = fs.readFileSync(`${parseDir}/${file}`, 'utf-8');
     let jsonObj = parser.parse(data).Return;
 
     let betterJsonObj = {
+        ein: jsonObj.ReturnHeader.PreparerFirmGrp.PreparerFirmEIN,
         returnType: String(jsonObj.ReturnHeader.ReturnTypeCd),
         city: jsonObj.ReturnHeader.PreparerFirmGrp.PreparerUSAddress.CityNm,
         state: jsonObj.ReturnHeader.PreparerFirmGrp.PreparerUSAddress.StateAbbreviationCd
@@ -33,10 +37,23 @@ xmlFiles.forEach(file => {
             break;
         case "990PF":
             betterJsonObj.onlyContributeToPreselected = jsonObj.ReturnData.IRS990PF.SupplementaryInformationGrp.OnlyContriToPreselectedInd
+            // includes RecipientFoundationStatusTxt, GrantOrContributionPurposeTxt, Amt
             betterJsonObj.contributions = jsonObj.ReturnData.IRS990PF.SupplementaryInformationGrp.GrantOrContributionPdDurYrGrp
-            // RecipientFoundationStatusTxt, GrantOrContributionPurposeTxt, Amt
+            betterJsonObj.employees = [];
             break;
         default:
       }
-    console.log(betterJsonObj);
+    
+      //Filter out employees with titles that aren't used in search terms
+    betterJsonObj.employees = betterJsonObj.employees.filter(o => {
+        let title = o.TitleTxt.toLowerCase();
+        return title.includes("director") ||
+                (title.includes("chief") && title.includes("officer")) ||
+                title.includes("manager") ||
+                title.includes("coordinator") ||
+                title.includes("assistant")
+    });
+    betterJsonObjects.push(betterJsonObj);
 })
+
+send(betterJsonObjects);

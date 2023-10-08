@@ -1,5 +1,6 @@
 {
   "name": "backend",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +14,7 @@
     "fast-xml-parser": "^4.3.2"
   },
   "devDependencies": {
+    "@elastic/elasticsearch": "^8.10.0",
     "@types/node": "^20.8.3",
     "prettier": "^3.0.3",
     "svelte-types": "^0.0.7",
