@@ -12,23 +12,21 @@ const client = new Client({
 });
 
 export const GET: RequestHandler = async function ({ url }) {
-	const dynamicQuery = [];
-	const ein = url.searchParams.get('ein');
-	if (ein.length !== 0) {
-		dynamicQuery.push({ wildcard: { ein: `*${ein}*` } });
+	const partialMatchTerms = ['name', 'ein', 'city', 'state'];
+	const partialMatchQueries = [];
+
+	for (const term of partialMatchTerms) {
+		const termValue = url.searchParams.get(term);
+		console.log(termValue);
+		if (termValue !== null && termValue.length !== 0) {
+			partialMatchQueries.push({ wildcard: { [term]: `*${termValue}*` } });
+		}
 	}
-	const city = url.searchParams.get('city');
-	if (city.length !== 0) {
-		dynamicQuery.push({ wildcard: { city: `*${city}*` } });
-	}
-	const state = url.searchParams.get('state');
-	if (state.length !== 0) {
-		dynamicQuery.push({ wildcard: { state: `*${state}*` } });
-	}
+
 	const documents = await client.helpers.search({
 		query: {
 			bool: {
-				must: dynamicQuery
+				must: partialMatchQueries
 			}
 		}
 	});

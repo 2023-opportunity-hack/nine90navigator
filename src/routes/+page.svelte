@@ -8,6 +8,10 @@
 <form class="py-2 m-2" method="POST">
 	<div class="flex flex-row">
 		<label class="label">
+			<span>Nonprofit name</span>
+			<input class="input" name="name" placeholder="Kittens & Dogs Ltd." />
+		</label>
+		<label class="label">
 			<span>Employer Identification Number (EIN)</span>
 			<input class="input" name="ein" placeholder="000000000" />
 		</label>
