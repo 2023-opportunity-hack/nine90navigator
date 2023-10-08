@@ -1,6 +1,7 @@
 ![9-90TWO](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/102429804/9b5d2c16-6fa0-461a-9bfd-20c7577e2dbb)
 
-# 9-90 Scraper Inspration!
+# 9-90 Scraper 
+Inspration!
 - Legends Animated is a non-profit organization with a mission of promoting “the awareness and appreciation of animation as a medium for all forms of storytelling.”
 -Inspired by the guerrilla filmmaking movement, Legends Animated truly helps provide underrepresented, independent animators with a platform to share and develop their stories.
 - Being able to search and sort specific data from the tax return forms of nonprofits around the nation would help them find the right financial partners, ensuring that their apprentices and employees are always fairly compensated for their efforts.
