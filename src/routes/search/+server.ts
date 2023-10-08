@@ -12,21 +12,33 @@ const client = new Client({
 });
 
 export const GET: RequestHandler = async function ({ url }) {
-	const partialMatchTerms = ['name', 'ein', 'city', 'state'];
-	const partialMatchQueries = [];
+	const orQueries = [];
 
+	const partialMatchTerms = ['name', 'ein', 'city', 'state'];
 	for (const term of partialMatchTerms) {
 		const termValue = url.searchParams.get(term);
-		console.log(termValue);
-		if (termValue !== null && termValue.length !== 0) {
-			partialMatchQueries.push({ wildcard: { [term]: `*${termValue}*` } });
+		if (termValue?.length !== 0) {
+			orQueries.push({ wildcard: { [term]: `*${termValue}*` } });
 		}
 	}
 
+	const rangeMatchTerms = [
+		{ name: 'grossRevenue', min: 'grossRevenueMin', max: 'grossRevenueMax' },
+		{ name: 'netRevenue', min: 'netRevenueMin', max: 'netRevenueMax' }
+	];
+	for (const term of rangeMatchTerms) {
+		const termValueMin = url.searchParams.get(term.min);
+		const termValueMax = url.searchParams.get(term.max);
+		if (termValueMin?.length !== 0 && termValueMax?.length !== 0) {
+			orQueries.push({ range: { [term.name]: { gte: termValueMin, lte: termValueMin } } });
+		}
+	}
+
+	console.log(orQueries);
 	const documents = await client.helpers.search({
 		query: {
 			bool: {
-				must: partialMatchQueries
+				must: orQueries
 			}
 		}
 	});
