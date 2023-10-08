@@ -1,5 +1,6 @@
-![9-90TWO](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/102429804/9b5d2c16-6fa0-461a-9bfd-20c7577e2dbb)
+<img src = "https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/102429804/9b5d2c16-6fa0-461a-9bfd-20c7577e2dbb",width = "100",height="100">
 
+![9-90TWO]
 # Nine-90 Scraper 
 
 ***Nine-90*** allows the user to search through data from 990 tax returns of nonprofits around the nation with different search options including geographic location, grant application process, the grant application recipient, submission deadlines, restrictions and limitations, and whether or not the foundation accepts unsolicited requests for funds. Apart from this, ***Nine-90*** can also search through data on nonprofit salaries with search options of geographic locations, annual gross revenue, annual net revenue, and employee title, such as those including keywords like director and chief, ***making it easier for Legends Animated to succeed in sprouting talents.***
