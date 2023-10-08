@@ -27,7 +27,8 @@
  Our program was built through three stages: scraping the information from the 990 tax return forms, applying Elasticsearch using Svelte as our framework, and designing the front-end code for the user interface. The program also uses Leaflet to implement the geographical location requirements of the problem.
 
 # Structure
-![READ ME - Barrett Baddies (1)](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/145801438/e675bc83-7907-490d-ac71-df86ae0772e3)
+![READ ME - Barrett Baddies](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/145801438/f4cb8b8f-1a6d-4802-aff9-6963009a182b)
+
 
 # Challenges
 1. While Nine-90’s main function is to search through and interpret the IRS data, it was quite difficult to interpret the XML data, which also had a corrupted zip file. Our plan for the API was discarded after a few hours of work due to a lack of necessary data.
