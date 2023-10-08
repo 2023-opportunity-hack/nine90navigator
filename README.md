@@ -50,6 +50,9 @@ Working on Nine-90 for Legends Animation taught us that while creating real worl
   2. In the terminal, install dependencies and modules with ```npm install```
   3. In the terminal, type ```npm run dev``` and the terminal should pop up with a link to a local server
   4. You are free to use the website!
+# Svelte Installation
+
+# Elasticsearch Installation
 
 ## Team Members
 -   Sriya Pratipati
