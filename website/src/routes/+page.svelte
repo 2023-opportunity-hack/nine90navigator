@@ -1,7 +1,7 @@
-<script lang="ts">
-  let text = '';
-</script>
-
-<input bind:value={text} />
-<p>{text}</p>
-
+<form method="POST" action="/search">
+	<label>
+		EIN
+		<input name="ein">
+	</label>
+	<button>Search</button>
+</form>
