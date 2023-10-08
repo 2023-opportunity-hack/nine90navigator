@@ -13,7 +13,8 @@
 	},
 	"dependencies": {
 		"@elastic/elasticsearch": "8.10.0",
-		"@types/elasticsearch": "^5.0.41"
+		"@types/elasticsearch": "^5.0.41",
+		"svelte-preprocess": "^5.0.4"
 	},
 	"devDependencies": {
 		"@skeletonlabs/skeleton": "^2.2.0",

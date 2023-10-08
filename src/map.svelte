@@ -1,17 +1,22 @@
-<script lang="ts">  
-   	import * as L from 'leaflet';
+<!-- Map.svelte -->
+
+<script lang="ts">
+    import L from 'leaflet';
     import { onMount } from 'svelte';
- 
-    
-   let map: L.Map | undefined;
+   
   
-   let popup: L.Popup | undefined;
+    /**
+	 * @type {L.Map | L.LayerGroup<any>}
+	 */
+    let map: L.Map;
+    /**
+	 * @type {L.Popup}
+	 */
+    let popup: L.Popup;
   
     let query = "";
   
-    onMount(async () => {
-        const L = await import('leaflet');
-
+    onMount(() => {
       map = L.map("map").setView([38.889805, -77.009056], 4);
   
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -22,14 +27,12 @@
       popup = L.popup();
   
       map.on("click", onMapClick);
-   
     });
-
+  
  
     function onMapClick(e: { latlng: { lng: any; lat: any; }; }) {
       const xcord = e.latlng.lng;
       const ycord = e.latlng.lat;
-      if ( ! popup || ! map) return;
       popup
         .setLatLng(e.latlng)
         .setContent("You clicked the map at " + xcord + " " + ycord)
@@ -43,16 +46,11 @@
   </script>
   
   <style>
- 
     #map {
       height: 600px;
-      position: absolute;
     }
   </style>
-
-
-
- <div id ="map"> </div>
+  
   <div class="searchBar">
     <form id="form" role="search">
       <input type="search" id="query" bind:value="{query}" placeholder="Search..." aria-label="Search through site content">
@@ -60,8 +58,5 @@
     </form>
   </div>
   
-
-     
-
-
+  <div id="map"></div>
   
