@@ -1,9 +1,18 @@
 <script lang="ts">
 	import Nonprofit from '$lib/Nonprofit.svelte';
 	import { searchResults } from '../stores';
+	import image from '../static/icon.png';
 </script>
 
-<h1 class="h1 m-2">Nine-90 Search</h1>
+<div class="flex flex-row">
+	<img class="object-contain h-16" src={image} alt="" />
+	<h1 class="h1 m-2">
+		<span
+			class="bg-gradient-to-br from-red-500 to-yellow-500 bg-clip-text text-transparent box-decoration-clone"
+			>Nine-90 Search</span
+		>
+	</h1>
+</div>
 
 <form class="py-2 m-2" method="POST">
 	<div class="flex flex-row">
