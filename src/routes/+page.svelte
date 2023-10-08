@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { enhance } from '$app/forms';
 	import Nonprofit from '$lib/Nonprofit.svelte';
 	import { searchResults } from '../stores';
 </script>

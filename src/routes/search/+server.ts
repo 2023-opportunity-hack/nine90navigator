@@ -30,11 +30,10 @@ export const GET: RequestHandler = async function ({ url }) {
 		const termValueMin = url.searchParams.get(term.min);
 		const termValueMax = url.searchParams.get(term.max);
 		if (termValueMin?.length !== 0 && termValueMax?.length !== 0) {
-			orQueries.push({ range: { [term.name]: { gte: termValueMin, lte: termValueMin } } });
+			orQueries.push({ range: { [term.name]: { gte: termValueMin, lte: termValueMax } } });
 		}
 	}
 
-	console.log(orQueries);
 	const documents = await client.helpers.search({
 		query: {
 			bool: {
