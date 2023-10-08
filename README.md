@@ -4,14 +4,13 @@
 
 ***Nine-90*** allows the user to search through data from 990 tax returns of nonprofits around the nation with different search options including geographic location, grant application process, the grant application recipient, submission deadlines, restrictions and limitations, and whether or not the foundation accepts unsolicited requests for funds. Apart from this, ***Nine-90*** can also search through data on nonprofit salaries with search options of geographic locations, annual gross revenue, annual net revenue, and employee title, such as those including keywords like director and chief, ***making it easier for Legends Animated to succeed in sprouting talents.***
 
-
-
-# Why this tool was made [Legends Animated](https://legendsanimated.org/).
+# Why This Tool Was Made
 ![image](https://github.com/2023-opportunity-hack/BARRETT-BADDIES---990DataFinder-ATooltoAnalyzeNonprofitsandFoundations-TaxReturns/assets/102429804/2337a24f-1ee8-4cd2-a6d5-4db97afe9883)
-
+- This project was created for [Opportunity Hack 2023](https://hack.ohack.dev) hosted at Arizona State University.
 - **Legends Animated** is a non-profit organization with a mission of promoting _“the awareness and appreciation of animation as a medium for all forms of storytelling.”_
 -Inspired by the ***guerrilla filmmaking movement***, Legends Animated truly helps provide underrepresented, independent animators with a platform to share and develop their stories.
 - Being able to **search and sort specific data** from the tax return forms of nonprofits around the nation would help them find the right financial partners, ensuring that their apprentices and employees are always fairly compensated for their efforts.
+- For more information, see our [problem statement](https://ohack.dev/project/xsnjfdchdZNjGThFjJPh).
 
 # What tools were used?
 
@@ -48,40 +47,7 @@ Working on Nine-90 for Legends Animation taught us that while creating real worl
   3. In the terminal, type ```npm run dev``` and the terminal should pop up with a link to a local host
   4. You are free too use the website!
 
-
-
-
-# 2023_fall Hackathon
-
-https://hack.ohack.dev
-
-## Team
-
-BARRETT BADDIES
-
-## Slack Channel
-
-`#`[barrettbaddies](https://opportunity-hack.slack.com/app_redirect?channel=barrettbaddies)
-
-## Problem Statement
-
-[990 Data Finder: A Tool to Analyze Nonprofits and Foundations’ Tax Returns](https://ohack.dev/project/xsnjfdchdZNjGThFjJPh)
-
-## Creator
-
-@Ben Juntilla (on Slack)
-
-## Your next steps
-
-1. ✅ Add everyone to your GitHub repo like this: https://opportunity-hack.slack.com/archives/C1Q6YHXQU/p1605657678139600
-2. ✅ Create your DevPost project like this https://youtu.be/vCa7QFFthfU?si=bzMQ91d8j3ZkOD03
-3. ✅ ASU Students use https://opportunity-hack-2023-asu.devpost.com/
-4. ✅ Everyone else use https://opportunity-hack-2023-virtual.devpost.com/
-5. ✅ Your DevPost final submission demo video should be 3 minutes or less
-6. ✅ Review the judging criteria on DevPost
-
 # What should your final Readme look like?
-
 Examples of stellar readmes:
 
 -   ✨ [2019 Team 3](https://github.com/2019-Arizona-Opportunity-Hack/Team-3)
@@ -92,7 +58,6 @@ Examples of stellar readmes:
 -   ✨ [2020 Team 12](https://github.com/2020-opportunity-hack/Team-12)
 
 ## Team members
-
 -   Sriya Pratipati
 -   Ben Juntilla
 -   Chelsea Gomez
