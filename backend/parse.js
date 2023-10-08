@@ -1,13 +1,13 @@
 import fs from 'fs';
 import send from './send.js';
-import { XMLParser, XMLBuilder, XMLValidator} from 'fast-xml-parser';
+import { XMLParser } from 'fast-xml-parser';
 
 const parseDir = './parse';
 
 const parser = new XMLParser();
 
 const xmlFiles = fs.readdirSync(parseDir)
-                     .filter(file => file.endsWith('.xml'));
+                    .filter(file => file.endsWith('.xml'));
 
 let betterJsonObjects = [];
 
@@ -42,9 +42,9 @@ xmlFiles.forEach(file => {
             betterJsonObj.employees = [];
             break;
         default:
-      }
-    
-      //Filter out employees with titles that aren't used in search terms
+    }
+
+    //Filter out employees with titles that aren't used in search terms
     betterJsonObj.employees = betterJsonObj.employees.filter(o => {
         let title = o.TitleTxt.toLowerCase();
         return title.includes("director") ||

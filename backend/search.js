@@ -1,7 +1,7 @@
 import { Client } from '@elastic/elasticsearch';
 
 const client = new Client({
-    cloud: { 
+    cloud: {
         id: //empty
     },
     auth: {
@@ -13,13 +13,13 @@ async function run(){
         index: "nonprofits",
         "query": {
             "bool": {
-            "must": [
-                { "match": { "employees.TitleTxt": "DIRECTOR" }}
-            ]
+                "must": [
+                    { "match": { "employees.TitleTxt": "DIRECTOR" }}
+                ]
+            }
         }
-          }
-    })  
-   const results = document.hits.hits
+    })
+    const results = document.hits.hits
     results.forEach((hit) => {
         console.log(hit._source); // this logs the original data of each hit
     });
