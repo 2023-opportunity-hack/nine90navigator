@@ -16,7 +16,7 @@ xmlFiles.forEach(file => {
     let jsonObj = parser.parse(data).Return;
 
     let betterJsonObj = {
-        ein: jsonObj.ReturnHeader.PreparerFirmGrp.PreparerFirmEIN,
+        ein: String(jsonObj.ReturnHeader.PreparerFirmGrp.PreparerFirmEIN),
         returnType: String(jsonObj.ReturnHeader.ReturnTypeCd),
         city: jsonObj.ReturnHeader.PreparerFirmGrp.PreparerUSAddress.CityNm,
         state: jsonObj.ReturnHeader.PreparerFirmGrp.PreparerUSAddress.StateAbbreviationCd
