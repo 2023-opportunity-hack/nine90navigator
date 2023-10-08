@@ -1,10 +1,11 @@
 <script lang="ts">
+	import Nonprofit from '$lib/Nonprofit.svelte';
 	import { searchResults } from '../stores';
 </script>
 
 <form method="POST">
 	<label>
-		EIN
+		Employer Identification Number (EIN)
 		<input name="ein" />
 	</label>
 	<label>
@@ -20,6 +21,6 @@
 
 <ul>
 	{#each $searchResults as result}
-		<li>{result.city}</li>
+		<Nonprofit dat={result} />
 	{/each}
 </ul>
