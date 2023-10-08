@@ -16,6 +16,7 @@ xmlFiles.forEach(file => {
     let jsonTaxForm = parser.parse(data).Return;
 
     let filteredJsonTaxForm = {
+        name: jsonTaxForm.ReturnHeader.PreparerFirmGrp.PreparerFirmName.BusinessNameLine1Txt,
         ein: String(jsonTaxForm.ReturnHeader.PreparerFirmGrp.PreparerFirmEIN),
         returnType: String(jsonTaxForm.ReturnHeader.ReturnTypeCd),
         city: jsonTaxForm.ReturnHeader.PreparerFirmGrp.PreparerUSAddress.CityNm,

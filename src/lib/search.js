@@ -14,7 +14,7 @@ async function run(){
         "query": {
             "bool": {
                 "must": [
-                    { "match": { "employees.TitleTxt": "DIRECTOR" }}
+                    { "match": { "employees.TitleTxt": "DIRECTOR" }},
                 ]
             }
         }

@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-07-06T09:12:40-05:00</ReturnTs>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>480567703</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>KCOE ISOM LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>828 GREAT NORTHERN BOULEVARD</AddressLine1Txt>
+        <CityNm>HELENA</CityNm>
+        <StateAbbreviationCd>MT</StateAbbreviationCd>
+        <ZIPCd>59601</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>844061522</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>LOCATI EDGE</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>LOCA</BusinessNameControlTxt>
+      <PhoneNum>4065871139</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>1007 E MAIN ST STE 202</AddressLine1Txt>
+        <CityNm>BOZEMAN</CityNm>
+        <StateAbbreviationCd>MT</StateAbbreviationCd>
+        <ZIPCd>59715</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JERRY LOCATI</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>4065871139</PhoneNum>
+      <SignatureDt>2023-05-25</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>JERRY</PersonFirstNm>
+        <PersonLastNm>LOCATI</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>0</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>CINDY UTTERBACK</PreparerPersonNm>
+      <PTIN>P00102080</PTIN>
+      <PhoneNum>4064421040</PhoneNum>
+      <PreparationDt>2023-05-25</PreparationDt>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>3</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="6">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>581105</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>35639</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>123</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>123</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>7398</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>7398</DividendsNetInvstIncmAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>43160</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>7521</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">1861</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">43</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>0</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">3301</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>0</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>0</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>5205</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>25140</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>25140</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>30345</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>25140</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>12815</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>7521</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>89637</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>68114</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>68114</SavAndTempCashInvstEOYFMVAmt>
+        <CorporateStockBOYAmt>475448</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc2018900001">512991</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>512991</CorporateStockEOYFMVAmt>
+        <TotalAssetsBOYAmt>565085</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>581105</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>581105</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>565085</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>581105</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>565085</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>581105</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>565085</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>581105</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>565085</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>12815</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="RetDoc2049700001">3205</OtherIncreasesAmt>
+        <SubtotalAmt>581105</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>581105</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>105</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>105</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>105</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>0</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>0</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>105</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>0</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>MT</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>LOCATIARCHITECTS.COM/LOCATI-EDGE</WebsiteAddressTxt>
+        <IndividualWithBooksNm>NANCY OCKFORD</IndividualWithBooksNm>
+        <PhoneNum>4065871139</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>1007 E MAIN ST SUITE 202</AddressLine1Txt>
+          <CityNm>BOZEMAN</CityNm>
+          <StateAbbreviationCd>MT</StateAbbreviationCd>
+          <ZIPCd>59715</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>1</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>0</TransactionsFailToQlfyAsExcInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>KARI LOCATI</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1007 E MAIN ST 202</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JERRY LOCATI</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1007 E MAIN ST 202</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>KIRSTEN SMITH</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1007 E MAIN ST 202</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>NANCY OCKFORD</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1007 E MAIN ST 202</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </USAddress>
+          <TitleTxt>TREASURER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>KYLE TAGE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1007 E MAIN ST 202</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>482234</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>83679</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>565913</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>565913</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>8489</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>557424</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>27871</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>27871</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>105</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>105</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>27766</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>27766</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>27766</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>25140</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>25140</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>27766</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>20736</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>25140</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>20736</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>4404</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>23362</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>JERRY LOCATI</ContributingManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>AARON DIAZ</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1214 MANZANITA DR</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S SON</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TRUCK REBUILD - REQUESTING FUNDS FOR PARTS NEEDED</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ADELAIDE CUMMINS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2732 HEDGEROW CT</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59718</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NIECE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>AERIAL DANCE LESSONS</GrantOrContributionPurposeTxt>
+          <Amt>800</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>AVERY NEALIS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>239 ALTA VISTA DR</AddressLine1Txt>
+            <CityNm>MCCALL</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83638</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NEPHEW</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>NORDIC SKIING CLUB</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BOONE BURDETTE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 4446</AddressLine1Txt>
+            <CityNm>WHITEFISH</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59937</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NEPHEW</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GUITAR LESSONS AT NORTH VALLEY MUSIC SCHOOL</GrantOrContributionPurposeTxt>
+          <Amt>900</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CIARAN CUMMINS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2732 HEDGEROW CT</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59718</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NEPHEW</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>BASKETBALL LESSONS</GrantOrContributionPurposeTxt>
+          <Amt>140</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CLIVE YAKOS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2050 BAXTER LANE</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S FRIEND</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EMERGE SCHOOL WITH ART EMPHASIS</GrantOrContributionPurposeTxt>
+          <Amt>2965</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>HARRISON CUMMINS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2732 HEDGEROW CT</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59718</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NEPHEW</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>MARTIAL ARTS LESSONS</GrantOrContributionPurposeTxt>
+          <Amt>270</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>HENRY RIENDEAU</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>424 FIELDSTONE DRIVE</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S SON</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SKI RIDGE TRAINING</GrantOrContributionPurposeTxt>
+          <Amt>3890</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ISLA IRVINE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>243 ARROW TRAIL</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59718</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S DAUGHTER</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>JUNIOR PGA GOLF PROGRAM</GrantOrContributionPurposeTxt>
+          <Amt>308</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>JAMES CUMMINS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2732 HEDGEROW CT</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59718</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NEPHEW</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>PRIME PERFORMANCE AND PHYSIO SPORTS TRAINING</GrantOrContributionPurposeTxt>
+          <Amt>260</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>JULIA GROENEWEG</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>10238 US HWY 287 BOX 590</AddressLine1Txt>
+            <CityNm>THREE FORKS</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59752</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S DAUGHTERS FRIEND</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EUROPE SCHOOL ART TRIP</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>KYANNA HOEKEMA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>100 KERI STREET</AddressLine1Txt>
+            <CityNm>MANHATTAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59741</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S DAUGHTER</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EUROPE SCHOOL ART TRIP</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>KYLER KELLY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>866 DONEY WAY</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59718</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S DAUGHTER</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GYMNASTICS CAMP</GrantOrContributionPurposeTxt>
+          <Amt>300</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>LIAM YAKOS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2050 BAXTER LANE</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59715</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S FRIEND</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EMERGE SCHOOL WITH SCIENCE EMPHASIS</GrantOrContributionPurposeTxt>
+          <Amt>2965</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MADELYN NEALIS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>239 ALTA VISTA DR</AddressLine1Txt>
+            <CityNm>MCCALL</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83638</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NIECE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>NORDIC SKIING CLUB</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SAMUEL FEDDES</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2960 CHURCHILL ROAD</AddressLine1Txt>
+            <CityNm>MANHATTAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59741</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S FRIEND</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>DRONE BUSINESS COURSE</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SOL HOMQUIST</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>605 6TH AVE W</AddressLine1Txt>
+            <CityNm>COLUMBIA FALLS</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59912</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NIECE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>DANCE LESSONS</GrantOrContributionPurposeTxt>
+          <Amt>894</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SOPHIA CUMMINS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2732 HEDGEROW CT</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59718</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S NIECE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>HORSEBACK RIDING LESSONS</GrantOrContributionPurposeTxt>
+          <Amt>640</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>VAYDA IRVINE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>243 ARROW TRAIL</AddressLine1Txt>
+            <CityNm>BOZEMAN</CityNm>
+            <StateAbbreviationCd>MT</StateAbbreviationCd>
+            <ZIPCd>59718</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>EMPLOYEE'S DAUGHTER</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>INDIVIDUAL</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>JUNIOR PGA GOLF PROGRAM</GrantOrContributionPurposeTxt>
+          <Amt>308</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>25140</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>123</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>7398</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>7521</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>7521</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>1861</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc2018900001">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>APPLE SECURITIES</StockNm>
+        <EOYBookValueAmt>246477</EOYBookValueAmt>
+        <EOYFMVAmt>246477</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>FAIR ISAAC INC SECURITIES</StockNm>
+        <EOYBookValueAmt>125702</EOYBookValueAmt>
+        <EOYFMVAmt>125702</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>WILLIAMS COMPANIES INC SECURITIES</StockNm>
+        <EOYBookValueAmt>140812</EOYBookValueAmt>
+        <EOYFMVAmt>140812</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1667</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>WEBSITE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1422</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LICENSES &amp; FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>20</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SUPPLIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>160</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK SERVICE FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>32</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="RetDoc2049700001">
+      <OtherIncreasesDetail>
+        <Desc>CHANGE IN UNREALIZED GAINS AND LOSSES DURING THE YEAR</Desc>
+        <Amt>3205</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>PY EXCISE TAX DUE</CategoryTxt>
+        <Amt>43</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

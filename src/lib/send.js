@@ -21,7 +21,7 @@ export default async function send(objects) {
                         grossRevenue: { type: "integer" },
                         netRevenue: { type: "integer" },
                         //Can't get employees to save the information into
-                        employees: {type: "object", dynamic: true,properties:{TitleTxt: {type: "text"}}}
+                        employees: {type: "object", dynamic: true,properties:{TitleTxt: {type: "text"},}}
                     }
                 }
             }

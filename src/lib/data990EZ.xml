@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2021v4.2">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-01-17T07:16:14-06:00</ReturnTs>
+    <TaxPeriodEndDt>2022-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>474526160</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>EFPR GROUP CPAS PLLC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>6390 MAIN STREET SUITE 200</AddressLine1Txt>
+        <CityNm>WILLIAMSVILLE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14221</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990EZ</ReturnTypeCd>
+    <TaxPeriodBeginDt>2021-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>166053305</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>INTNL UNION OF OPERATING ENGINEERS</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>INTN</BusinessNameControlTxt>
+      <PhoneNum>7168277949</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 366NIAGARA ST STATION</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JONATHAN SCHMIDLE</PersonNm>
+      <PersonTitleTxt>TREASURER</PersonTitleTxt>
+      <PhoneNum>7168277949</PhoneNum>
+      <SignatureDt>2022-12-12</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>JONATHAN</PersonFirstNm>
+        <PersonLastNm>SCHMIDLE</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>PAUL KIEL</PreparerPersonNm>
+      <PTIN>P00245468</PTIN>
+      <PhoneNum>7166340700</PhoneNum>
+      <PreparationDt>2022-12-08</PreparationDt>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>3</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2021</TaxYr>
+    <BuildTS>2023-03-07 01:45:13Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS990EZ documentId="RetDoc1234200001" referenceDocumentId="RetDoc1051800001 RetDoc2278000001">
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+      <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+      <Organization501cInd organization501cTypeTxt="5">X</Organization501cInd>
+      <TypeOfOrganizationOtherInd>X</TypeOfOrganizationOtherInd>
+      <TypeOfOrganizationOtherDesc>EXEMPT ORGANIZATION</TypeOfOrganizationOtherDesc>
+      <GrossReceiptsAmt>98104</GrossReceiptsAmt>
+      <InfoInScheduleOPartIInd>X</InfoInScheduleOPartIInd>
+      <MembershipDuesAmt>95615</MembershipDuesAmt>
+      <InvestmentIncomeAmt>59</InvestmentIncomeAmt>
+      <OtherRevenueTotalAmt>2430</OtherRevenueTotalAmt>
+      <TotalRevenueAmt>98104</TotalRevenueAmt>
+      <BenefitsPaidToOrForMembersAmt>11942</BenefitsPaidToOrForMembersAmt>
+      <SalariesOtherCompEmplBnftAmt>29147</SalariesOtherCompEmplBnftAmt>
+      <FeesAndOtherPymtToIndCntrctAmt>52700</FeesAndOtherPymtToIndCntrctAmt>
+      <OtherExpensesTotalAmt>10529</OtherExpensesTotalAmt>
+      <TotalExpensesAmt>104318</TotalExpensesAmt>
+      <ExcessOrDeficitForYearAmt>-6214</ExcessOrDeficitForYearAmt>
+      <NetAssetsOrFundBalancesBOYAmt>105190</NetAssetsOrFundBalancesBOYAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <NetAssetsOrFundBalancesEOYAmt>98976</NetAssetsOrFundBalancesEOYAmt>
+      <CashSavingsAndInvestmentsGrp>
+        <BOYAmt>105190</BOYAmt>
+        <EOYAmt>98976</EOYAmt>
+      </CashSavingsAndInvestmentsGrp>
+      <Form990TotalAssetsGrp>
+        <BOYAmt>105190</BOYAmt>
+        <EOYAmt>98976</EOYAmt>
+      </Form990TotalAssetsGrp>
+      <SumOfTotalLiabilitiesGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </SumOfTotalLiabilitiesGrp>
+      <NetAssetsOrFundBalancesGrp>
+        <BOYAmt>105190</BOYAmt>
+        <EOYAmt>98976</EOYAmt>
+      </NetAssetsOrFundBalancesGrp>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <PrimaryExemptPurposeTxt>TO PROTECT, PROMOTE, AND IMPROVE THE WORKING CONDITIONS OF LOCAL 409 AND UNION REPRESENTATION IN ARBITRATION AND COLLECTIVE BARGAINING ON BEHALF OF ITS MEMBERS.</PrimaryExemptPurposeTxt>
+      <ProgramSrvcAccomplishmentGrp>
+        <DescriptionProgramSrvcAccomTxt>TO PROTECT, PROMOTE, AND IMPROVE THE WORKING CONDITIONS OF LOCAL 409 AND UNION REPRESENTATION IN ARBITRATION AND COLLECTIVE BARGAINING ON BEHALF OF ITS MEMBERS.</DescriptionProgramSrvcAccomTxt>
+        <GrantsAndAllocationsAmt>0</GrantsAndAllocationsAmt>
+        <ProgramServiceExpensesAmt>0</ProgramServiceExpensesAmt>
+      </ProgramSrvcAccomplishmentGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>GEORGE SAWYER</PersonNm>
+        <TitleTxt>FINANCIAL SECRETARY</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>9.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>KENNETH SAWYER</PersonNm>
+        <TitleTxt>RECORDING SECRETARY</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>9.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>CARL MIDDONE</PersonNm>
+        <TitleTxt>VICE PRESIDENT</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>17.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>JEFFREY LATHROP</PersonNm>
+        <TitleTxt>PRESIDENT</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>17.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>JONATHAN SCHMIDLE</PersonNm>
+        <TitleTxt>TREASURER</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>17.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <InfoInScheduleOPartVInd>X</InfoInScheduleOPartVInd>
+      <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+      <ChgMadeToOrgnzngDocNotRptInd>0</ChgMadeToOrgnzngDocNotRptInd>
+      <OrganizationHadUBIInd>0</OrganizationHadUBIInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+      <DirectIndirectPltclExpendAmt>0</DirectIndirectPltclExpendAmt>
+      <MadeLoansToFromOfficersInd>0</MadeLoansToFromOfficersInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>IUOE LOCAL 409</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>575 HOPKINS STREET</AddressLine1Txt>
+          <CityNm>BUFFALO</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>142201142</ZIPCd>
+        </USAddress>
+        <PhoneNum>7168277949</PhoneNum>
+      </BooksInCareOfDetail>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ForeignOfficeInd>0</ForeignOfficeInd>
+      <DonorAdvisedFndsInd>0</DonorAdvisedFndsInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <TanningServicesProvidedInd>0</TanningServicesProvidedInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+    </IRS990EZ>
+    <IRS990ScheduleO documentId="RetDoc1051800001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990-EZ, PART I, LINE 4 - OTHER INVESTMENT INCOME</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION: INTEREST INCOME. AMOUNT: 59.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990-EZ, PART I, LINE 8 - OTHER REVENUE</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION: UNION PICNIC TICKET SALES. AMOUNT: 2,430.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990-EZ, PART I, LINE 16 - OTHER EXPENSES</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION: NORTHEASTERN STATE CONFERENCE. AMOUNT: 180. DESCRIPTION: IUOE TRAINING. AMOUNT: 176. DESCRIPTION: OFFICE EXPENSES. AMOUNT: 9,551. DESCRIPTION: MEETING HALL - RENTAL &amp; REFERESHMENTS. AMOUNT: 200. DESCRIPTION: BANK FEES &amp; CHARGES. AMOUNT: 422. TOTAL TO FORM 990-EZ, LINE 16: 10,529.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <TransferPrsnlBnftContractsDecl documentId="RetDoc2278000001">
+      <DeclarationDesc>THE ORGANIZATION DID NOT, DURING THE YEAR, RECEIVE ANY FUNDS, DIRECTLY,OR INDIRECTLY, TO PAY PREMIUMS ON A PERSONAL BENEFIT CONTRACT.THE ORGANIZATION, DID NOT, DURING THE YEAR, PAY ANY PREMIUMS, DIRECTLY,OR INDIRECTLY, ON A PERSONAL BENEFIT CONTRACT.</DeclarationDesc>
+    </TransferPrsnlBnftContractsDecl>
+  </ReturnData>
+</Return>
